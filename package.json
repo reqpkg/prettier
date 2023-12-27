@@ -1,6 +1,6 @@
 {
   "name": "reqprettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ultimate Prettier Config",
   "main": ".prettierrc",
   "type": "module",
@@ -13,7 +13,7 @@
     "url": "https://github.com/strikebu77"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "prettier": "^3.1.1"
   }
 }
