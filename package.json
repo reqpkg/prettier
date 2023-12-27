@@ -2,10 +2,10 @@
   "name": "reqprettier",
   "version": "1.0.0",
   "description": "Ultimate Prettier Config",
-  "main": "prettier.config.js",
+  "main": ".prettierrc",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write ."
   },
   "author": {
     "name": "strikebu77",
