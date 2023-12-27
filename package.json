@@ -1,0 +1,19 @@
+{
+  "name": "reqprettier",
+  "version": "1.0.2",
+  "description": "Ultimate Prettier Config",
+  "main": "prettier.config.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "author": {
+    "name": "strikebu77",
+    "email": "strikebu77@gmail.com",
+    "url": "https://github.com/strikebu77"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^3.1.1"
+  }
+}
