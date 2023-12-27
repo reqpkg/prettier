@@ -20,7 +20,7 @@ npm install reqprettier -D # или другой пакетный менедже
 
 В файле `package.json` добавить:
 
-```json
+```jsonc
 {
   // ...
   "prettier": "reqprettier"
