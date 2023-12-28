@@ -33,11 +33,11 @@ npm install reqprettier -D # или другой пакетный менедже
 Дефолтный импорт пакета `reqprettier` возвращает конфиг. Его можно просто установить или расширить.
 
 ```js
-import reqprettierConfig from "reqprettier";
+import reqprettierConfig from 'reqprettier'
 ```
 
 ```js
-export default reqprettierConfig;
+export default reqprettierConfig
 ```
 
 или
@@ -46,5 +46,5 @@ export default reqprettierConfig;
 export default {
   ...reqprettierConfig,
   singleQuote: false,
-};
+}
 ```
