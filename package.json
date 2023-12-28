@@ -1,8 +1,9 @@
 {
   "name": "reqprettier",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Ultimate Prettier Config",
   "main": "prettier.config.js",
+  "types": "package.d.ts",
   "type": "module",
   "scripts": {
     "format": "prettier --write . --config ./prettier.config.js"
