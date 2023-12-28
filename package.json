@@ -1,6 +1,6 @@
 {
   "name": "reqprettier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ultimate Prettier Config",
   "main": "prettier.config.js",
   "type": "module",
@@ -11,6 +11,10 @@
     "name": "strikebu77",
     "email": "strikebu77@gmail.com",
     "url": "https://github.com/strikebu77"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reqpkg/reqprettier"
   },
   "license": "MIT",
   "dependencies": {
