@@ -1,24 +1,24 @@
 # ✨ reqprettier
 
-Prettier с полностью настроенной конфигурацией для использования в любых проектах. Не задумывайся и быстро запускай проект с готовым Prettier.
+Prettier with fully customised configuration for use in any project. Don't hesitate and get your project up and running quickly with Prettier ready.
 
 ## Инструкция по использованию
 
-Необходимо установить пакет `reqprettier` и дать понять, что нужно использовать этот конфиг.
+You need to install the `reqprettier` package and make it clear that you need to use this config.
 
-### Установка зависимостей
+### Dependency installation
 
 ```bash
-npm install reqprettier -D # или другой пакетный менеджер
+npm install reqprettier -D # or another package manager
 ```
 
-### Включение конфига
+### Enabling the configuration
 
-Тут предлагается 2 варианта:
+There are 2 options offered here:
 
-#### 1) Через `package.json`
+#### 1) Via `package.json`.
 
-В файле `package.json` добавить:
+In the `package.json` file, add:
 
 ```jsonc
 {
@@ -28,9 +28,9 @@ npm install reqprettier -D # или другой пакетный менедже
 }
 ```
 
-#### 2) Через импорт конфига из пакета
+#### 2) By importing the config from the package
 
-Дефолтный импорт пакета `reqprettier` возвращает конфиг. Его можно просто установить или расширить.
+The default import of the `reqprettier` package returns a config. It can be simply installed or extended.
 
 ```js
 import reqprettierConfig from 'reqprettier'
@@ -40,7 +40,7 @@ import reqprettierConfig from 'reqprettier'
 export default reqprettierConfig
 ```
 
-или
+or
 
 ```js
 export default {
