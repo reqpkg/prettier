@@ -2,7 +2,7 @@
 
 Prettier with fully customised configuration for use in any project. Don't hesitate and get your project up and running quickly with Prettier ready.
 
-## Инструкция по использованию
+## How to use
 
 You need to install the `reqprettier` package and make it clear that you need to use this config.
 
