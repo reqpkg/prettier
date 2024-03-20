@@ -1,6 +1,15 @@
 # ✨ reqprettier
 
-Prettier with fully customised configuration for use in any project. Don't hesitate and get your project up and running quickly with Prettier ready.
+[Prettier](https://prettier.io) with fully customised configuration for use in any project. Don't hesitate and get your project up and running quickly with Prettier ready.
+
+- [✨ reqprettier](#-reqprettier)
+  - [How to use](#how-to-use)
+    - [Dependency installation](#dependency-installation)
+    - [Enabling the configuration](#enabling-the-configuration)
+      - [1) Via `package.json`.](#1-via-packagejson)
+      - [2) Or you can customise the configuration](#2-or-you-can-customise-the-configuration)
+  - [Examples](#examples)
+    - [Javascript](#javascript)
 
 ## How to use
 
@@ -23,28 +32,39 @@ In the `package.json` file, add:
 ```jsonc
 {
   // ...
-  "prettier": "reqprettier"
+  "prettier": "reqprettier",
   // ...
 }
 ```
 
-#### 2) By importing the config from the package
+#### 2) Or you can customise the configuration
 
 The default import of the `reqprettier` package returns a config. It can be simply installed or extended.
 
 ```js
 import reqprettierConfig from 'reqprettier'
-```
 
-```js
-export default reqprettierConfig
-```
-
-or
-
-```js
 export default {
   ...reqprettierConfig,
   singleQuote: false,
 }
 ```
+
+## Examples
+
+### Javascript
+
+<table width="100%">
+  <thead>
+    <th width="30%">Before</th>
+    <th width="50%">After</th>
+  </thead>
+  <tbody>
+    <td>
+      <img src="images/javascript-before.png" />
+    </td>
+    <td>
+      <img src="images/javascript-after.png" />
+    </td>
+  </tbody>
+</table>
