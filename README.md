@@ -61,10 +61,10 @@ export default {
   </thead>
   <tbody>
     <td>
-      <img src="images/javascript-before.png" />
+      <img src="https://raw.githubusercontent.com/reqpkg/reqprettier/main/images/javascript-before.png" />
     </td>
     <td>
-      <img src="images/javascript-after.png" />
+      <img src="https://raw.githubusercontent.com/reqpkg/reqprettier/main/images/javascript-after.png" />
     </td>
   </tbody>
 </table>
