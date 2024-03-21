@@ -1,6 +1,6 @@
 {
   "name": "reqprettier",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "✨ Prettier with a great default configuration",
   "main": "prettier.config.js",
   "types": "./index.d.ts",
@@ -17,6 +17,10 @@
     "type": "git",
     "url": "https://github.com/reqpkg/reqprettier"
   },
+  "keywords": [
+    "prettier",
+    "format"
+  ],
   "license": "MIT",
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
