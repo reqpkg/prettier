@@ -1,9 +1,13 @@
 {
   "name": "reqprettier",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "✨ Prettier with a great default configuration",
   "main": "prettier.config.js",
   "types": "./index.d.ts",
+  "files": [
+    "./index.d.ts",
+    "./prettier.config.js"
+  ],
   "type": "module",
   "scripts": {
     "format": "prettier --write . --config ./prettier.config.js"
