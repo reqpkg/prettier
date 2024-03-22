@@ -1,6 +1,6 @@
 {
   "name": "reqprettier",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "✨ Prettier with a great default configuration",
   "main": "prettier.config.js",
   "types": "./index.d.ts",
