@@ -54,6 +54,9 @@ export default {
 
 ### Javascript
 
+1. Format code
+2. Sorts and separates imports
+
 <table width="100%">
   <thead>
     <th width="30%">Before</th>
